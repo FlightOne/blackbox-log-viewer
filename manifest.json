@@ -1,0 +1,18 @@
+{
+  "name": "FlightOne - Blackbox Explorer",
+  "description": "Interactive flight log viewer for FlightOne",
+  "version": "3.0.0",
+  "version_name": "3.0.0",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+       {"fileSystem": ["write"]},
+       "storage"
+   ],
+  "icons": { "128": "images/icon.png" }
+}
