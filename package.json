@@ -2,7 +2,7 @@
   "name": "flightone-blackbox-explorer",
   "displayName": "FlightOne - Blackbox Explorer",
   "description": "Crossplatform blackbox analitics tool for FlightOne flight control system.",
-  "version": "3.0.0",
+  "version": "1.1.147",
   "main": "main_nwjs.html",
   "bg-script": "background.js",
   "default_locale": "en",

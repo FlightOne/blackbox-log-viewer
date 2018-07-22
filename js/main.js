@@ -810,7 +810,7 @@ function BlackboxLogViewer() {
         graphConfig = GraphConfig.load(item);
         
         if (!graphConfig) {
-            graphConfig = GraphConfig.getExampleGraphConfigs(flightLog, ["Motors", "Gyros"]);
+            graphConfig = GraphConfig.getExampleGraphConfigs(flightLog, ["Motors", "Gyros", "Gyro + PID roll", "Gyro + PID pitch", "Gyro + PID yaw"]);
         }
     });
 

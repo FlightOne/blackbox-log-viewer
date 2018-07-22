@@ -180,7 +180,7 @@ GraphConfig.load = function(config) {
             },
             {
                 label: "Gyros",
-                fields: ["gyroADC[all]"]
+                fields: ["gyroADC[all]", "debug[2]", "debug[0]", "debug[1]"]
             },
             { /* Add custom graph configurations to the main menu ! */
                 label: "RC Rates",

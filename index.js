@@ -66,7 +66,7 @@ function getManifestVersion(manifest) {
     return version;
 }
 
-checkForConfiguratorUpdates();
+// checkForConfiguratorUpdates();
 
 function openLinksInExternalBrowserByDefault() {
     try {
